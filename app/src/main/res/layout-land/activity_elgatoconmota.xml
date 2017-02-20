@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:id="@+id/activity_elgatoconmota"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="com.example.android.elgatoconmota.eLGaToCoNMoTa_File"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/collageImage"
+        android:src="@drawable/collagelargo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+              />
+
+    <TextView
+        android:id="@+id/brandName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="eLGaToCoNMoTa"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:id="@+id/ourBrandTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOSOTR@S"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:background="@android:color/white" />
+        <TextView
+            android:id="@+id/ourBrandContent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:text="El gato con mota es un taller autogestionado ubicado en la Pedriza, Madriz. Ni gatos con botas, ni gatos con motas. Nuestro nombre viene de la conjunción de lo animal y vegetal. De esos seres con los que convivimos en nuestra casa/taller en la sierra de MadriZ. "
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/contactDetailsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATOS DE CONTACTO"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:background="@android:color/white"/>
+        <TextView
+            android:id="@+id/contactWeb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text=" * WEB: https://www.elgatoconmota.es"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/contactFace"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text=" * FACEBOOK: https://www.facebook.com/elgatoconmotahandmade"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/contactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text=" * EMAIL: elgatoconmota@gmail.com"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ourLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONDE ESTAMOS"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:background="@android:color/white" />
+        <ImageView
+            android:id="@+id/ourLocationImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/map"
+            android:gravity="center"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
